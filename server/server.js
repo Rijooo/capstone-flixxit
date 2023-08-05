@@ -4,7 +4,13 @@ const userRoutes = require("./routes/UserRoutes");
 const db = require('./db.js');
 const app = express();
 
-app.use(cors());
+app.use(cors(
+  {
+    origin:[""],
+    methods:["POST","GET"],
+    credentials:true
+  }
+));
 app.use(express.json());
 
 db.Database();
