@@ -1,6 +1,6 @@
 # Flixxit
 
->[Working Demo](vjhvv)
+>[Working Demo](https://capstone-flixxi-client.vercel.app/login)
 
 This repository contains a streaming app build using MERN stack.Please follow the givem instructions to set it up.
 
