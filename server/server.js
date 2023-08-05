@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors(
   {
-    origin:[""],
+    origin:["https://capstone-flixxi-client.vercel.app/login"],
     methods:["POST","GET"],
     credentials:true
   }
