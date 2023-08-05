@@ -8,7 +8,7 @@ import Signup from "./pages/Signup";
 import TVShows from "./pages/TVShows";
 import Info from "./pages/Info";
 import UserListedMovies from "./pages/UserListedMovies";
-import axios from "axios"
+import axios from "axios";
 
 export default function App() {
   axios.post("https://capstone-flixxit-ser.vercel.app/");
